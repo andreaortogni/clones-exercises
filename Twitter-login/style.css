@@ -1,0 +1,118 @@
+html,
+body {
+    margin: 0;
+    background-color: #000000;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+}
+
+.image-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55vw;
+    max-width: 55vw;
+    background-image: url(img/image-panel.png);
+    background-size: cover;
+}
+.image-panel svg {
+    max-height: 350px;
+}
+
+.form-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45vw;
+    max-width: 45vw;
+    color: #FFFFFF;
+}
+.form-panel-container {
+    padding-left: 30px;
+}
+.form-panel-container svg {
+    max-width: 45px;
+}
+.form-title {
+    margin: 50px 0px;
+    font-size: 4rem;
+    font-weight: bold;
+}
+.form-subtitle {
+    margin-bottom: 30px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.social-signin-btn button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    padding: 10px 45px;
+    width: 300px;
+    background-color: #FFFFFF;
+}
+.social-signin-btn button .google-svg {
+    width: 18px;
+    margin-right: 10px;
+}
+.social-signin-btn button .apple-svg {
+    width: 20px;
+    margin-right: 10px;
+}
+.spacer-bar-text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.left-spacer {
+    background-color: grey;
+    height: 1px;
+    width: 140px;
+    margin-right: 5px;
+}
+.right-spacer {
+    background-color: grey;
+    height: 1px;
+    width: 140px;
+    margin-left: 5px;
+}
+.twitter-login-btn button {
+    margin-bottom: 0px;
+    border-radius: 25px;
+    padding: 10px 45px;
+    width: 300px;
+    color: #FFFFFF;
+    background-color: rgb(29, 155, 240);
+    font-weight: bold;
+}
+p.privacy-text {
+    max-width: 300px;
+    font-size: 0.8rem;
+    margin-bottom: 75px;
+}
+p.privacy-text a {
+    color: rgb(29, 155, 240);
+    text-decoration: none;
+}
+.login-container .login-label {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+}
+.social-login-btn button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    border-radius: 25px;
+    padding: 10px 45px;
+    width: 300px;
+    background-color: #000000;
+    color: rgb(29, 155, 240);
+}
