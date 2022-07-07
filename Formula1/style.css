@@ -1,0 +1,33 @@
+html,
+body {
+  margin: 0;
+}
+
+#main {
+  height: 100vh;
+}
+#main .header {
+  display: table;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  height: auto;
+}
+#main .header .table-header-group {
+  display: table-header-group;
+}
+#main .header .table-header-group .top-header {
+  max-width: 1320px;
+  margin: auto;
+}
+#main .header .table-header-group .top-header .fia-logo {
+  float: left;
+}
+#main .header .table-header-group .top-header .fia-logo img {
+  height: 25px;
+  margin: 12px 0;
+  opacity: 0.4;
+}
+#main .header .table-header-group .top-header .link-group {
+  float: right;
+}/*# sourceMappingURL=style.css.map */

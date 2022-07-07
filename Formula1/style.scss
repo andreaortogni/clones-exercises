@@ -1,0 +1,40 @@
+html,
+body {
+    margin: 0;
+}
+
+#main {
+    height: 100vh;
+
+    .header {
+        display: table;
+        width: 100vw;
+        position: fixed;
+        top: 0;
+        height: auto;
+
+        .table-header-group {
+            display: table-header-group;
+
+            .top-header {
+                max-width: 1320px;
+                margin: auto;
+    
+                .fia-logo {
+                    float: left;
+
+                    img {
+                        height: 25px;
+                        margin: 12px 0;
+                        opacity: .4;
+                    }
+                }
+    
+                .link-group {
+                    float: right;
+                }
+            }
+        }
+    }
+}
+
